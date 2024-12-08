@@ -52,7 +52,7 @@ class _SnakeGameState extends State<SnakeGame> {
     _food = _generateFood();
     _direction = 'up';
     _timer?.cancel();
-    _timer = Timer.periodic(const Duration(milliseconds: 300), (timer) {
+    _timer = Timer.periodic(const Duration(milliseconds: 500), (timer) {
       setState(() {
         _moveSnake();
         if (_checkCollision()) {
@@ -211,7 +211,7 @@ class _SnakeGameState extends State<SnakeGame> {
                           height: squareSize.toDouble(),
                           decoration: BoxDecoration(
                             color: _snake.contains(Offset(x.toDouble(), y.toDouble()))
-                                ? Colors.green
+                                ? Colors.blue
                                 : (_food == Offset(x.toDouble(), y.toDouble())
                                     ? Colors.red
                                     : Colors.grey[800]),
