@@ -13,6 +13,9 @@ A simple and classic Snake game built with Flutter. This project demonstrates th
   - Swipe gestures are supported for mobile devices.
 - **Game Over Dialog**: Displays a prompt to restart the game or exit when the snake collides with itself or the wall.
 - **Customizable Grid**: Easily modify grid dimensions and square sizes.
+## Demo
+
+https://mahmoudkortas.github.io/snake-website/
 
 ## Getting Started
 
