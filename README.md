@@ -68,7 +68,7 @@ static const int squareSize = 20;  // Size of each square in pixels
 
 Adjust the snake's speed by modifying the timer duration:
 
-Timer.periodic(const Duration(milliseconds: 200), (timer) { ... });
+Timer.periodic(const Duration(milliseconds: 500), (timer) { ... });
 
 Dependencies
 
